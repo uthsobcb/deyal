@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: serif;
+    color: rgb(246, 246, 241);
+}
+a{
+    color: rgb(248, 244, 244);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    background-color: rgb(1, 1, 47);
+}
+.logo-text{
+    font-size: 40px;
+    color: yellow;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 26px 5%;
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: rgb(103, 151, 241);
+    transition: all 0.6s;
+}
+.btn{
+    padding: 15px;
+    background-color: rgb(96, 143, 231);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15%;
+}
+.banner{
+    margin: 0;
+    background-color: rgb(1, 1, 47);
+}
+span{
+    font-size: 50px;
+    color: brown;
+    padding: 20px 10%;
+    margin: 50px;
+    padding: 5%;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.sanimate{
+  transition: all 0.3s ease;
+}
+.ex-de{
+    height: 500px;
+    float: right;
+}
+.banner{
+    font-size: 105px;
+    color: rgba(175, 255, 235, 0.712);
+    letter-spacing: 55px;
+    padding: 30px;
+    text-align: center;
+}
+h4{
+    margin: 0;
+    font-size: 30px;
+    padding: 5%;
+    color: black;
+}
+.navbar i{
+  font-size: 3.45rem;
+  margin: 1rem;
+
+}
+.abtt{
+    background-size: cover;
+    position: relative;
+    margin-left: 5%;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans');
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+a {
+  text-decoration: none;
+  margin: 1rem 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  line-height: 1.5;
+  color: black;
+}
+
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #333;
+  font-size: 1.825rem;
+  margin: 1.3rem 0;
+}
+.service a {
+  color: #5b7abb;
+  display: block;
+}
+
+.service h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #56ceba;
+  font-size: 1.3rem;
+  margin: 1rem 0 0.6rem;
+}
+
+.services-grid {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.service {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  -webkit-box-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #e7e7e7;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.service:hover {
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+.service i {
+  font-size: 3.45rem;
+  margin: 1rem 0;
+}
+
+.service1 i,
+.service1 h4,
+.service1 .cta {
+  color: #42b7ca;
+}
+
+.service1:hover {
+  border: 2px solid #42b7ca;
+}
+
+.service2 i,
+.service2 h4,
+.service2 .cta {
+  color: #425fca;
+}
+
+.service2:hover {
+  border: 2px solid #425fca;
+}
+
+.service3 i,
+.service3 h4,
+.service3 .cta {
+  color: #9c42ca;
+}
+
+.service3:hover {
+  border: 2px solid #9c42ca;
+}
+
+.service .cta span {
+  font-size: 0.6rem;
+}
+
+.service > * {
+  flex: 1 1 100%;
+}
+
+.service .cta {
+  align-self: flex-end;
+}
+
+@media all and (max-width:900px) {
+  .services-grid {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+}
+p.shad{
+  font-family: 'Monotype','itchy-handwriting';
+  font-size: 15px;
+  box-sizing: border-box;
+  width: 60%;
+  height: auto;
+  border-top: 1px solid silver;
+  border-left: 1px solid silver;
+  box-shadow: 5px 5px 40px rgba(68,68,68);
+  text-align: left;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.foot{
+  background-color: black;
+  font-size: 10px;
+  box-sizing: border-box;
+  color: black;
+}
