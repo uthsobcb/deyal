@@ -26,7 +26,7 @@ header("Cache-Control: max-age=2592000");
                 <li><a href="#about">About</a></li>
                 <li><a href="#visit">Visit</a></li>
                 <a href="#write" class="btn" data-bs-toggle="modal" data-bs-target="#writeModal"> Write</a>    
-                <a href="https://github.com/uthsobcb">
+                <a href="https://github.com/uthsobcb/deyal">
                 <i class="fa fa-github"></i>
               </a>
               </ul>  
